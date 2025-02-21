@@ -1,0 +1,21 @@
+First 5 Rows (df.head())
+
+Displays sample data from the dataset with 10 columns.
+Each row represents a Netflix movie or TV show.
+Important columns:
+show_id: Unique identifier for each title.
+type: Indicates whether the title is a Movie or TV Show.
+title: Name of the content.
+director: Director’s name (if available).
+release_year: Year of release.
+rating: Age rating (e.g., PG-13, TV-MA).
+duration: Length of the movie or number of seasons for TV shows.
+listed_in: Categories or genres assigned to the content.
+Dataset Information (df.info())
+
+Total Entries: 8,790 rows (i.e., 8,790 movies or TV shows).
+Columns: 10 columns.
+Data Types:
+object (string): For text-based data like title, director, and genre.
+int64: Numerical column (release_year).
+Non-Null Count: Shows that every column has 8,790 non-null values, meaning no missing values in this dataset.
